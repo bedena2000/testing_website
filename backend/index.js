@@ -31,6 +31,7 @@ const generateId = () => {
 
 // Middlewares
 app.use(express.json());
+app.use(express.static('build'));
 app.use(cors());
 
 const requestLogger = (request, response, next) => {

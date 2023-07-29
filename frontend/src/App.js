@@ -8,7 +8,7 @@ const App = () => {
 
   useEffect(() => {
     axios
-      .get('http://localhost:3005/api/notes')
+      .get('/api/notes')
       .then((result) => {
         setNotes(result.data);
       })
@@ -27,7 +27,7 @@ const App = () => {
       };
 
       axios
-        .post('http://localhost:3005/api/notes', newObj)
+        .post('/api/notes', newObj)
         .then(response => {
           setNotes(notes.concat(response.data));
         })
