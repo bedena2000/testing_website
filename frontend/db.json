@@ -1,0 +1,28 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "learning javascript"
+    },
+    {
+      "content": "new",
+      "important": true,
+      "id": 2
+    },
+    {
+      "content": "newnote",
+      "important": true,
+      "id": 3
+    },
+    {
+      "content": "python",
+      "important": true,
+      "id": 4
+    },
+    {
+      "content": "django",
+      "important": false,
+      "id": 5
+    }
+  ]
+}
